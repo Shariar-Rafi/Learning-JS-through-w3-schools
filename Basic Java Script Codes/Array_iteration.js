@@ -72,7 +72,7 @@ console.log(newArray);
 // console.log(numbers.includes(0))
 
 
-/*
+
 function myFunction(value){
 
     return value > 18;
@@ -80,7 +80,7 @@ function myFunction(value){
 }   
 const newArray = numbers.find(myFunction);
 console.log(newArray);
-*/
+
 
 // console.log(Array.from("ABSHDGD"));
 
