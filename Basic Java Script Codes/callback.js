@@ -35,7 +35,7 @@ function display(x){
     console.log(x);
 };
 
-function calcu(num1,num2,callback){
+function calculate(num1,num2,callback){
     sum = num1 + num2;
     if(callback){
         callback(sum);
@@ -44,5 +44,5 @@ function calcu(num1,num2,callback){
 };
 
 
-calcu(2,7,display); // if we dont use that display the console will remain blank
+calculate(2,7,display); // if we dont use that display the console will remain blank
 
