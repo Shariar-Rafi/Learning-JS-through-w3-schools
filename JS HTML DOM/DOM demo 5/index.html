@@ -6,9 +6,19 @@
     <title>DOM demo 5</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<!-- <body onunload="console.log('unloaded')"> -->
+
+<body onload="console.log('Doc loaded')">
+
     <h1>Output:</h1>
     <br><br>
+    <!-- events practice-->
+    <button id="b1" onclick="changeText()">Click here</button>
+    <button id="b2" onclick="this.innerHTML='Yeah'">Click here</button>
+    <button id="b3">Click</button> <br>
+    <!-- <a href="text.html" target="_blank">Link</a> -->
+
+
 
     
     <script src="script.js"></script>
