@@ -1,0 +1,14 @@
+#container{
+    height: 400px;
+    width: 400px;
+    background-color: yellow;
+    position: relative;
+}
+
+#anime{
+
+    height:50px;
+    width:50px;
+    background-color:red;
+    position:absolute;
+}
